@@ -1,0 +1,22 @@
+# Problem Set 02: Bank Marketing Prediction Using Logistic Regression
+
+## Overview
+
+This project focuses on predicting whether a bank customer will subscribe to a term deposit or not based on their demographic and banking information.  
+We use a *Logistic Regression model*, a common classification algorithm suitable for binary outcomes.
+
+---
+
+## Dataset
+
+- The dataset contains information about bank customers including:
+  - *Demographics:* Age, Job, Marital Status, Education
+  - *Financial Info:* Balance, Default, Housing Loan, Personal Loan
+  - *Target:* Whether the customer subscribed to a term deposit (y column: yes/no)
+
+- *In this implementation, a **synthetic dataset* is generated with the same structure as the real bank dataset.  
+- You can replace the synthetic CSV with your real dataset by changing the dataset_url in the code.
+
+---
+
+## Folder Structure
